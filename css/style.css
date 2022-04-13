@@ -1,0 +1,76 @@
+.sidebar{
+    width: 437px;
+    margin-top: 150px;
+    margin-left: 300px;
+    padding: 45px 43px;
+    background: #FFFFFF;
+}
+
+.surface{
+    margin-right: 16px;
+    padding: 6px;
+    width: 35px;
+    height: 35px;
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+.surface:active{
+    box-shadow: 0px 0px 0px 3px #0E85F3;
+}
+.sidebar__label{
+    font-size: 26px;
+    line-height: 31px;
+    color: #000000;
+}
+.box-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.box-wrapper + .box-wrapper{
+    margin-top: 19px;
+}
+
+.surface-desc {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.surface-tennis:active{
+    background-image: url(../images/tennis.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.surface-baceball:active{
+    background-image: url(../images/basketbol.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.surface-voleyboll:active{
+    background-image: url(../images/volleyball.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.surface-hokkey:active{
+    background-image: url(../images/hokkey.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.surface-hokkey{
+    box-shadow: none;
+}
+
+.sidebar__label--hokkey:active{
+    color: #aaaafa;
+}
+
